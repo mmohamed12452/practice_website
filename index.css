@@ -36,15 +36,10 @@ font-size: 1rem;
     outline: none;
     background-color: #05082c;
 }
-
-
 main{
     display: flex;
     flex-wrap: wrap;
 }
-
-
-/* ye baad me dekhte hai */
 
 .movie{
     box-shadow: 0 4px 5px rgba(0,0,0,0.2);
@@ -105,9 +100,6 @@ main{
     transition: transform 1s ease-in;
     max-width: 100%;
     overflow: auto;
-
-
-
 }
 
 .movie:hover .overview{
@@ -117,4 +109,14 @@ main{
 
 .overview h4{
     margin-top: 0;
+    margin-left:200px;
+}
+:root
+{
+    --primary: #ff3700;
+}
+body
+{
+    background:#000000;
+    font-family:'Poppins', sans-serif;
 }
